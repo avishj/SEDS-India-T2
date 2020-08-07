@@ -34,8 +34,8 @@
           />
           <mdb-textarea :rows="2" label="Your message" icon="pencil" />
         </div>
-        <div class="text-center">
-          <mdb-btn class="mb-2" color="blue">
+        <div class="text-center mb-2">
+          <mdb-btn color="blue">
             Submit
             <mdb-icon far icon="paper-plane" class="ml-1" />
           </mdb-btn>

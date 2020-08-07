@@ -2,7 +2,7 @@
   <div class="app-home">
     <section class="container-fluid p-0 m-0">
       <b-row>
-        <b-col sm="12">
+        <b-col sm="12" class="p-0 m-0">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -64,23 +64,23 @@
         </b-col>
         <b-col sm="12">
           <mdb-card class="card-image">
-      <div class="text-black text-center py-5 px-4 my-5">
-        <div>
-          <h2 class="card-title h1-responsive pt-3 font-bold">
-            <strong>Why choose us?</strong>
-          </h2>
-          <p class="mx-5 mb-5">
-            Voluptates eos temporibus sequi corrupti reiciendis perspiciatis repellat. Atque voluptatibus culpa veniam. Saepe aut accusantium ut at cumque esse culpa. Veniam dolores recusandae sed deleniti. Rerum et nesciunt ducimus numquam et libero incidunt. Minima voluptate repudiandae rerum. Voluptates eos temporibus sequi corrupti reiciendis perspiciatis repellat. Atque voluptatibus culpa veniam. Saepe aut accusantium ut at cumque esse culpa.
-          </p>
-          <router-link to="/pricing">
-            <mdb-btn outline="blue" size="md" icon="clone" class="my-2 p-1">Pricing</mdb-btn>
-          </router-link>
-          <router-link to="/products">
-            <mdb-btn outline="blue" size="md" icon="clone" class="my-2 p-1">Products</mdb-btn>
-          </router-link>
-        </div>
-      </div>
-    </mdb-card>
+            <div class="text-black text-center py-5 px-4 my-5">
+              <div>
+                <h2 class="card-title h1-responsive pt-3 font-bold">
+                  <strong>Why choose us?</strong>
+                </h2>
+                <p
+                  class="mx-5 mb-5"
+                >Voluptates eos temporibus sequi corrupti reiciendis perspiciatis repellat. Atque voluptatibus culpa veniam. Saepe aut accusantium ut at cumque esse culpa. Veniam dolores recusandae sed deleniti. Rerum et nesciunt ducimus numquam et libero incidunt. Minima voluptate repudiandae rerum. Voluptates eos temporibus sequi corrupti reiciendis perspiciatis repellat. Atque voluptatibus culpa veniam. Saepe aut accusantium ut at cumque esse culpa.</p>
+                <router-link to="/pricing">
+                  <mdb-btn outline="blue" size="md" icon="clone" class="my-2 p-1">Pricing</mdb-btn>
+                </router-link>
+                <router-link to="/products">
+                  <mdb-btn outline="blue" size="md" icon="clone" class="my-2 p-1">Products</mdb-btn>
+                </router-link>
+              </div>
+            </div>
+          </mdb-card>
         </b-col>
       </b-row>
     </section>
